@@ -1,3 +1,6 @@
 [submodule "mobile-sdk-ios"]
 	path = mobile-sdk-ios
 	url = https://github.com/appnexus/mobile-sdk-ios.git
+[submodule "mobile-sdk-ioscd"]
+	path = mobile-sdk-ioscd
+	url = https://github.com/appnexus/mobile-sdk-ios.git
