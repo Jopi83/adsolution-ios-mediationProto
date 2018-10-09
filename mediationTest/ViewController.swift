@@ -20,11 +20,6 @@ class ViewController: UIViewController {
         label.textAlignment = .center
         label.text = "I'am a test label"
         
-        // if ANAdAdapterBannerDFP exists
-        let adClass = NSClassFromString("ANAdAdapterBannerDFP");//ANAdView //ANAdAdapterBannerDFP
-        if (!(adClass != nil)) {
-            label.text = "NoNoNoooo"
-        }
         
         self.view.addSubview(label)
         // Do any additional setup after loading the view, typically from a nib.
